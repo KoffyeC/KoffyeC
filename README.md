@@ -1,1 +1,2 @@
-Good morning/afternoon/evening! Thanks for stopping by my page.
+Hello everyone,
+Thanks for stopping by my page!
