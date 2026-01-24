@@ -1,0 +1,675 @@
+* {
+  background-color: #0A3981;
+  color: #E38E49; 
+  font-family: monospace;
+  padding: 0;
+  margin: 0;
+}
+
+.intro-container {
+  background-position: center;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin: 20px 8%;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  
+}
+
+li {
+  margin: 2px 0 2px 30px;
+  padding: 0;
+  font-size: 16px;
+  
+}
+
+/* Main */
+.welcome-desc {
+  font-weight: 100;
+  margin: 0 20%;
+  text-align: center; 
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+h2 {
+  font-weight: 100;
+  margin: 0 20%;
+  text-align: center; 
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* Image */
+.me-photo {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+  background-color: transparent;
+  font-size: 28px;
+  color: #0A3981;
+  font-weight: 100;
+  margin-bottom: 12px;
+}
+
+.lang-desc {
+  font-weight: bold;
+  text-align: center;
+  background-color: transparent;
+  font-size: 25px;
+  color: #0A3981;
+  font-weight: 100;
+  margin-bottom: 28px;
+}
+
+.white-container {
+ background-color: white;
+ font-family: arial;
+ padding: 40px 0;
+}
+
+.coding-langs {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: white;
+}
+
+.css {
+  margin: 0 30px;
+  width: 110px;
+  height: 110px;
+  background-color: transparent;
+}
+
+.html {
+  margin: 0 30px;
+  width: 110px;
+  height: 110px;
+  background-color: transparent;
+}
+
+.java {
+  margin: 0 30px;  
+  width: 115px;
+  height: 115px;
+  background-color: transparent;
+}
+
+.javascript {
+  margin: 0 30px;  
+  width: 115px;
+  height: 115px;
+  background-color: white;
+}
+
+.software-header {
+  margin-top: 58px;
+}
+
+.software-desc {
+  font-weight: bold;
+  text-align: center;
+  background-color: transparent;
+  font-size: 14px;
+  color: #0A3981;
+  font-weight: 100;
+  margin-bottom: 32px; /* Instead of 28 */
+}
+
+.coding-software {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: white;
+}
+
+.codepen {
+  margin: 0 50px;  
+  width: 110px;
+  height: 110px;
+  background-color: transparent;
+}
+
+.vscode {
+  margin: 0 50px;  
+  width: 110px;
+  height: 110px;
+  background-color: transparent;
+}
+
+.bluej {
+  margin: 0 50px;  
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  background-color: transparent;
+}
+
+.coding-projects {
+/* display: flex; */
+ align-items: center;
+/* justify-content: center; */
+ background-color: white;
+/* margin: 0 14%; */
+ justify-content: justify;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  border-color: black;
+  border-radius:15px;
+}
+
+.project-desc {
+  font-weight: bold;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 100;
+  color: #0A3981;
+  max-width: 60%;
+/*   border-radius: 20px; */
+  padding: 6px;
+  border: 2px solid #0A3981;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 35px;
+}
+
+
+/* Transitions and Hovers */
+li, h1 {
+  transition: 0.2s ease;
+}
+
+li:hover {
+  color: #D4EBF8;
+  cursor: pointer;
+}
+
+h1:hover {
+  color: #D4EBF8;
+  cursor: pointer;
+}
+
+.css:hover {
+  width: 130px;
+  height: 130px;
+}
+
+.html:hover {
+  width: 130px;
+  height: 130px;  
+}
+
+.java:hover {
+  width: 130px;
+  height: 130px;
+}
+
+.javascript:hover {
+  width: 130px;
+  height: 130px;
+}
+
+.java, .css, .html, .javascript{
+  transition: 0.4s ease;
+}
+
+.vscode:hover {
+  width: 130px;
+  height: 130px;
+}
+
+.codepen:hover {
+  width: 130px;
+  height: 130px;  
+}
+
+.bluej:hover {
+  width: 130px;
+  height: 130px;  
+}
+
+.vscode, .codepen, .bluej {
+  transition: 0.4s ease;
+}
+
+/* Horizontal ruler */
+hr{
+max-width: 60%;
+margin: 0 auto;
+border-radius: 50%;
+border: 3px dashed #E38E49;
+}
+
+/* Footer */
+footer{
+  margin: 20px 0;
+}
+
+.footer-desc {
+text-align: center;
+}
+
+@media (max-width : 900px) {
+
+.lang-desc {
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    font-size: 23px;
+    color: #0A3981;
+    font-weight: 100;
+    margin-bottom: 28px;
+  }
+}
+
+@media (max-width : 790px) {
+
+.lang-desc {
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    font-size: 20px;
+    color: #0A3981;
+    font-weight: 100;
+    margin-bottom: 28px;
+  }
+
+  .css:hover {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .html:hover {
+    width: 80px;
+    height: 80px;  
+  }
+  
+  .java:hover {
+    width: 80px;
+    height: 80px;
+  }
+
+  .javascript:hover {
+    width: 80px;
+    height: 80px;
+  }
+
+  .css {
+    margin: 0 30px;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+  
+  .html {
+    margin: 0 30px;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+  
+  .java {
+    margin: 0 30px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+
+   .javascript {
+    margin: 0 30px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+
+  .codepen {
+    margin: 0 30px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+
+  .vscode {
+    margin: 0 30px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+  
+  .bluej {
+    margin: 0 30px;  
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    background-color: transparent;
+  }
+
+.vscode:hover {
+  width: 80px;
+  height: 80px;
+}
+
+.codepen:hover {
+  width: 80px;
+  height: 80px; 
+}
+
+.bluej:hover {
+  width: 80px;
+  height: 80px;  
+}
+  
+  
+}
+
+@media (max-width : 700px) {
+
+.lang-desc {
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    font-size: 16px;
+    color: #0A3981;
+    font-weight: 100;
+    margin-bottom: 28px;
+  }
+}
+
+@media (min-width: 560px) {
+ iframe {
+    display: block;
+    margin: 0 auto;
+    border-color: black;
+    border-radius:15px;
+    width: 420px;
+    height: 200px;
+  }
+}
+
+
+@media (min-width: 530px) {
+ iframe {
+    display: block;
+    margin: 0 auto;
+    border-color: black;
+    border-radius:15px;
+    width: 520px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 539px) {
+  iframe {
+     display: block;
+     margin: 0 auto;
+     border-color: black;
+     border-radius:15px;
+     width: 350px;
+     height: 200px;
+   }
+}
+
+@media (max-width : 485px) {
+
+  li {
+    margin: 0px 0 0px 20px;
+    padding: 0;
+    font-size: 16px;
+  }
+
+
+  .css {
+    margin: 0 20px;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+  
+  .html {
+    margin: 0 20px;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+  
+  .java {
+    margin: 0 20px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+
+  .javascript {
+    margin: 0 20px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+
+
+  .codepen {
+    margin: 0 20px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+  .vscode {
+    margin: 0 20px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+  
+  .bluej {
+    margin: 0 20px;  
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    background-color: transparent;
+  }
+}
+
+@media (max-width : 430px) {
+
+  li {
+    margin: 0px 0px 0px 20px;
+    padding: 0;
+    font-size: 16px;
+  }
+
+
+  .css {
+    margin: 0px 10px;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+  
+  .html {
+    margin: 0 10px;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+  
+  .java {
+    margin: 0 10px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+
+  .javascript {
+    margin: 0 10px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+
+  .codepen {
+    margin: 0 20px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+
+  .vscode {
+    margin: 0 20px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+  
+  .bluej {
+    margin: 0 20px;  
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    background-color: transparent;
+  }
+}
+
+@media  (max-width: 430px) {
+  .lang-desc {
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    font-size: 12px;
+    color: #0A3981;
+    font-weight: 100;
+    margin-bottom: 28px;
+  }
+
+  .software-desc {
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    font-size: 12px;
+    color: #0A3981;
+    font-weight: 100;
+    margin-bottom: 32px; /* Instead of 28 */
+  }
+
+  .logo-name {
+   font-size: 17px;
+   margin-left: -15px;
+  }
+}
+
+@media  (max-width: 380px) {
+  .lang-desc {
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    font-size: 12px;
+    color: #0A3981;
+    font-weight: 100;
+    margin-bottom: 28px;
+  }
+
+  .software-desc {
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    font-size: 12px;
+    color: #0A3981;
+    font-weight: 100;
+    margin-bottom: 32px; /* Instead of 28 */
+  }
+
+  .logo-name {
+   font-size: 17px;
+   margin-left: -15px;
+  }
+}
+
+@media (max-width : 360px) {
+
+  li {
+    margin: 0px 0px 0px 20px;
+    padding: 0;
+    font-size: 16px;
+  }
+
+  .css {
+    margin: 0px 5px;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+  
+  .html {
+    margin: 0 5px;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+  
+  .java {
+    margin: 0 5px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+
+  .javascript {
+    margin: 0 5px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+
+  .codepen {
+    margin: 0 20px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+
+  .vscode {
+    margin: 0 20px;  
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+  }
+  
+  .bluej {
+    margin: 0 20px;  
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 360px) {
+  iframe {
+     display: block;
+     margin: 0 auto;
+     border-color: black;
+     border-radius:15px;
+     width: 300px;
+     height: 170px;
+   }
+ }
