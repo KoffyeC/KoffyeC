@@ -128,7 +128,7 @@ h3 {
   font-weight: bold;
   text-align: center;
   background-color: transparent;
-  font-size: 14px;
+  font-size: 25px;
   color: #0A3981;
   font-weight: 100;
   margin-bottom: 32px; /* Instead of 28 */
@@ -270,6 +270,7 @@ footer{
 text-align: center;
 }
 
+/* Includes lang desc and software desc */
 @media (max-width : 900px) {
 
 .lang-desc {
@@ -281,20 +282,21 @@ text-align: center;
     font-weight: 100;
     margin-bottom: 28px;
   }
+
+  .software-desc {
+  font-weight: bold;
+  text-align: center;
+  background-color: transparent;
+  font-size: 23px;
+  color: #0A3981;
+  font-weight: 100;
+  margin-bottom: 32px; /* Instead of 28 */
+}
 }
 
+/* Coding hover and coding logo resizing */
+/* includes lang-desc and soft-desc*/
 @media (max-width : 790px) {
-
-.lang-desc {
-    font-weight: bold;
-    text-align: center;
-    background-color: transparent;
-    font-size: 20px;
-    color: #0A3981;
-    font-weight: 100;
-    margin-bottom: 28px;
-  }
-
   .css:hover {
     width: 80px;
     height: 80px;
@@ -378,11 +380,31 @@ text-align: center;
 .bluej:hover {
   width: 80px;
   height: 80px;  
+} 
+
+.lang-desc {
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    font-size: 20px;
+    color: #0A3981;
+    font-weight: 100;
+    margin-bottom: 28px;
+  }
+
+  .software-desc {
+  font-weight: bold;
+  text-align: center;
+  background-color: transparent;
+  font-size: 20px;
+  color: #0A3981;
+  font-weight: 100;
+  margin-bottom: 32px; /* Instead of 28 */
 }
-  
-  
+ 
 }
 
+/* Lang-desc and software-desc */
 @media (max-width : 700px) {
 
 .lang-desc {
@@ -394,8 +416,19 @@ text-align: center;
     font-weight: 100;
     margin-bottom: 28px;
   }
+
+.software-desc {
+  font-weight: bold;
+  text-align: center;
+  background-color: transparent;
+  font-size: 16px;
+  color: #0A3981;
+  font-weight: 100;
+  margin-bottom: 32px; /* Instead of 28 */
+}
 }
 
+/* iframe */
 @media (min-width: 560px) {
  iframe {
     display: block;
@@ -407,7 +440,7 @@ text-align: center;
   }
 }
 
-
+/* iframe */
 @media (min-width: 530px) {
  iframe {
     display: block;
@@ -419,6 +452,7 @@ text-align: center;
   }
 }
 
+/* iframe */
 @media (max-width: 539px) {
   iframe {
      display: block;
@@ -430,6 +464,7 @@ text-align: center;
    }
 }
 
+/* list, coding logos resized */
 @media (max-width : 485px) {
 
   li {
@@ -437,7 +472,6 @@ text-align: center;
     padding: 0;
     font-size: 16px;
   }
-
 
   .css {
     margin: 0 20px;
@@ -467,13 +501,13 @@ text-align: center;
     background-color: transparent;
   }
 
-
   .codepen {
     margin: 0 20px;  
     width: 70px;
     height: 70px;
     background-color: transparent;
   }
+
   .vscode {
     margin: 0 20px;  
     width: 70px;
@@ -488,8 +522,10 @@ text-align: center;
     object-fit: contain;
     background-color: transparent;
   }
+
 }
 
+/* list, coding logos resized */
 @media (max-width : 430px) {
 
   li {
@@ -497,7 +533,6 @@ text-align: center;
     padding: 0;
     font-size: 16px;
   }
-
 
   .css {
     margin: 0px 10px;
@@ -550,7 +585,8 @@ text-align: center;
   }
 }
 
-@media  (max-width: 430px) {
+/* lang-desc, software-desc and logo-name */
+@media  (max-width: 485px) {
   .lang-desc {
     font-weight: bold;
     text-align: center;
@@ -577,6 +613,7 @@ text-align: center;
   }
 }
 
+/* lang-desc, software-desc and logo-name */
 @media  (max-width: 380px) {
   .lang-desc {
     font-weight: bold;
@@ -604,6 +641,7 @@ text-align: center;
   }
 }
 
+/* list, coding logos resized */
 @media (max-width : 360px) {
 
   li {
@@ -663,6 +701,7 @@ text-align: center;
   }
 }
 
+/* iframe */
 @media (max-width: 360px) {
   iframe {
      display: block;
